@@ -1,8 +1,10 @@
 import streamlit as st
 import time
 
-i = 1
-while 1:
-    st.title(i)
-    i = i +1
-    time.sleep(10)
+i = 0
+placeholder = st.empty()
+
+while True:
+    placeholder.title(f'counting: {i}')
+    i += 1
+    time.sleep(1)

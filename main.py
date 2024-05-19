@@ -20,9 +20,9 @@ st.image(img)
 
 
 ##### Git 중 충돌났을 떄 
-"""git fetch origin
-git merge origin/main
-git add <충돌 수정된 파일>
-git commit -m "Resolve merge conflict"
-git push origin main
-git push origin main --force"""
+#git fetch origin
+#git merge origin/main
+#git add <충돌 수정된 파일>
+#git commit -m "Resolve merge conflict"
+#git push origin main
+#git push origin main --force
